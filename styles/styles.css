@@ -1,7 +1,127 @@
-@import url(reset.css);
+@import url('reset.css');
 
 /**
 fonts and typography 
 **/
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+    background-color: #eaeaeb;
+    font-family: 'Heebo', sans-serif;
+    color: #0d0f20;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+h1, h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+/* common elements */
+.nav-horizontal {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-horizontal a {
+    color: grey;
+    padding: 0px 0.5rem;
+    text-decoration: none;
+}
+
+.category {
+    display: inline-block;
+    background-color: #4c54a0;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 0.3rem 0.7rem;
+}
+
+.icon {
+    display: inline-block;
+    height: 2vw;
+}
+
+.icon img {
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 1100px;
+    padding: 0px 4vw;
+    margin: 0px auto;
+    border: 2px solid red;
+}
+
+/* header */
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    font-size: 1.3rem;
+    margin: 0px;
+}
+
+.logo .icon {
+    margin-right: 1rem;
+}
+
+.header-main .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-main button {
+    background-color: transparent;
+    border: none;
+}
+
+.header-main {
+    background-color: white;
+    padding: 1rem 0px;
+}
+
+.footer-main {
+    background-color: white;
+    padding: 1rem 0px;
+}
+
+.footer-main .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-main p {
+    margin-bottom: 0px;
+}
+
+.footer-main .icon {
+    margin-left: 1rem;
+}
